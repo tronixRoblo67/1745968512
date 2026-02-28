@@ -84,7 +84,7 @@ function Library:CreateWindow()
     TabsHolder.Parent = Tabs
 
     local UIList = Instance.new("UIListLayout")
-    UIList.Padding = UDim.new(0, 0.02)
+    UIList.Padding = UDim.new(0, 0.04)
     UIList.Parent = TabsHolder
 
     -- CONTENT
